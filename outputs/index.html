@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Puppy and Grass Seed</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="scene active fade-in" id="ts">
+<div class="game-title">Puppy and Grass Seed</div>
+<p class="game-desc">A warm tale of interstellar deduction, canine civilizations, and the seed of life.<br><small>Select text + right-click to search for clues</small></p>
+<button class="btn-start" onclick="startGame()">Start Investigation</button>
+</section>
+
+<section class="scene" id="hs">
+<div class="fade-in">
+<div class="hall-header">
+<h2>Investigation Archives</h2>
+<p class="sub">Select text in documents, right-click to search. Find all clues to complete each dossier.</p>
+<button class="btn-pedi" onclick="showPedigree()">View Family Tree</button>
+</div>
+<div class="doc-grid" id="docGrid"></div>
+</div>
+</section>
+
+<section class="scene" id="ds">
+<div class="paper-doc fade-in" id="paperDoc"></div>
+</section>
+
+<section class="scene" id="ps">
+<div class="fade-in" style="text-align:center">
+<h2 style="font-size:1.6rem;color:#5d4037;margin-bottom:8px">Family Tree</h2>
+<p style="color:#8d6e63;font-size:.9rem;margin-bottom:24px">Click dashed nodes to fill them in as you discover clues</p>
+<div class="tree-wrap" id="treeWrap"></div>
+<div class="tree-tip" id="treeTip"></div>
+<button class="btn-pedi" onclick="backFromPed()">Back</button>
+</div>
+</section>
+
+<section class="scene" id="es">
+<div class="ending-wrap fade-in">
+<h2>Homecoming</h2>
+<div class="end-text" id="endingText"></div>
+<div class="end-cta">- END -</div>
+<button class="btn-restart" onclick="restartGame()">Restart</button>
+</div>
+</section>
+
+<script src="data.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
