@@ -1,4 +1,4 @@
-﻿extends Control
+extends Control
 
 ## 标题画面 - 游戏入口
 
@@ -103,7 +103,7 @@ func _on_start() -> void:
     get_tree().change_scene_to_file("res://scenes/intro_cutscene.tscn")
 
 
-func _add_rounded_corners(rect: ColorRect, radius: float) -> void:
+func _add_rounded_corners(_rect: ColorRect, _radius: float) -> void:
     # 简单处理：使用样式的圆角
     pass
 
