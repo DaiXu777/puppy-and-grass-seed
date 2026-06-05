@@ -45,6 +45,6 @@ pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=5
+textures/canvas_textures/default_texture_filter=4
 anti_aliasing/quality/msaa_2d=2
 environment/defaults/default_clear_color=Color(0.95, 0.93, 0.88, 1)

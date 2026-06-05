@@ -1,4 +1,4 @@
-﻿extends RefCounted
+extends RefCounted
 class_name StoryData
 
 ## 剧情数据管理器
@@ -6,7 +6,7 @@ class_name StoryData
 
 const DATA_PATH := "res://data/story_data.json"
 
-var _documents: Array[Dictionary] = []
+var _documents: Array = []
 var _pedigree: Dictionary = {}
 var _global_text: Dictionary = {}
 

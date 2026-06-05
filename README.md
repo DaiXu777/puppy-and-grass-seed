@@ -1,4 +1,4 @@
-﻿# 🐕 小狗与草籽 · Puppy & Grass Seed
+# 🐕 小狗与草籽 · Puppy & Grass Seed
 
 > 一则关于星际推理、狗文明与生命种子的温暖故事
 
@@ -103,7 +103,7 @@ cd puppy-and-grass-seed
 │   ├── pedigree_view.gd
 │   └── ending.gd
 └── data/
-    └── story_data.cfg            # 全部剧情文本和关键词数据
+	└── story_data.cfg            # 全部剧情文本和关键词数据
 ```
 
 ## 🔧 自定义剧情
