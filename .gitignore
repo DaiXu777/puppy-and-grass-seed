@@ -1,0 +1,28 @@
+﻿# Godot 游戏项目 · 小狗与草籽
+# 忽略构建产物和临时文件
+
+# Godot 特定
+.godot/
+*.import
+*.translation
+export/
+export_presets.cfg
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+Thumbs.db
+.DS_Store
+
+# 导出文件
+*.zip
+*.pck
+
+# 临时文件
+*.tmp
+*.log

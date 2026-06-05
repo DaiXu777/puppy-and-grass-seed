@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+"ï»¿config_version"=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="小狗与草籽"
+config/description="你被植物系外星文明绑架，它们需要你的推理天赋去调查失联多年的宇宙探险队..."
+config/version="0.1.0"
+run/main_scene="res://scenes/title_screen.tscn"
+config/features=PackedStringArray("4.6", "Forward Plus")
+
+[autoload]
+
+GameState="*res://scripts/autoload/game_state.gd"
+AudioManager="*res://scripts/autoload/audio_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[gui]
+
+common/default_font_size=18
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=5
+anti_aliasing/quality/msaa_2d=2
+environment/defaults/default_clear_color=Color(0.95, 0.93, 0.88, 1)
